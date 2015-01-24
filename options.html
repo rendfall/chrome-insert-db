@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="A basic web service to send request to remote server">
+  <meta name="author" content="Rendfall">
+
+  <title>InsertDB - WebService - Opcje</title>
+
+  <link href="css/style.css" rel="stylesheet" media="screen">    
+
+</head>
+<body>
+
+  <div class="container-fluid">
+
+    <div class="row">
+      <div class="col-md-12">
+
+        <div class="form-group">
+          <label class="control-label" for="remote">Ścieżka do pliku na serwerze zdalnym</label>
+          <input type="text" id="remote" class="form-control" name="remote" size="50" value="" />
+        </div> 
+        <div class="form-group clearfix">
+          <span id="status-display"></span>
+          <button id="save" class="btn btn-primary submit-button pull-left" type="submit">OK&nbsp;</button>
+          <button id="cancel" class="btn btn-default pull-right" type="reset">Cancel&nbsp;</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script src="js/options.js"></script>
+</body>
+</html>
